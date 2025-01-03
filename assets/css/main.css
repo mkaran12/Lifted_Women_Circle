@@ -2380,3 +2380,28 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+/* Mobile Screens */
+@media (max-width: 576px) {
+  h1, h2, h3 {
+    font-size: 0.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.8rem;
+  }
+
+  p, .lead {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .reduced-image {
+    max-width: 70%;
+  }
+
+  .btn-get-started {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+}
