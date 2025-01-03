@@ -2418,3 +2418,11 @@ section,
     padding: 0.5rem 1rem;
   }
 }
+
+/* Laptop Screens */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  p {
+    font-size: 1.3rem; /* Larger size for laptops */
+    line-height: 2; /* Maintain readability */
+  }
+}
