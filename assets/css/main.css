@@ -142,6 +142,19 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
+
+/* Default Logo Styling */
+.logo img {
+  height: 150px; /* Default height for larger screens */
+}
+
+/* Mobile Screens */
+@media (max-width: 576px) {
+  .logo img {
+    height: 80px; /* Reduced size for mobile devices */
+  }
+}
+
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
